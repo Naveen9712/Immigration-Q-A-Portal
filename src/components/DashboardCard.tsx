@@ -20,6 +20,7 @@ interface AiVotes {
   [key: number]: 'like' | 'dislike' | null;
 }
 
+
 const ImmigrationHomepage = () => {
   const [posts, setPosts] = useState<Post[]>([
     {
