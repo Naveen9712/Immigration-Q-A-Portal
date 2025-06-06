@@ -1,5 +1,5 @@
 import React from 'react';
-import DashboardCard from './components/DashboardCard';
+import DashboardCard from './components/immigration_homepage';
 
 const App: React.FC = () => {
   return (
