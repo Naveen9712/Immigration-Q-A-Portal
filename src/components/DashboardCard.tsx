@@ -16,6 +16,7 @@ interface Post {
   aiDislikes: number;
 }
 
+
 interface AiVotes {
   [key: number]: 'like' | 'dislike' | null;
 }
