@@ -464,7 +464,7 @@ const ImmigrationHomepage = () => {
             { icon: 'plus', label: 'Post', active: false },
             { icon: 'navigation', label: 'Journey', active: false },
             { icon: 'user', label: 'Profile', active: false }
-          ].map((item, index) => (
+          ].map((item) => (
             <button 
               key={item.label}
               onClick={!item.active ? handleComingSoonClick : undefined}
@@ -490,7 +490,7 @@ const ImmigrationHomepage = () => {
       {/* Coming Soon Modal */}
       {showComingSoonModal && <ComingSoonModal />}
 
-      <style jsx>{`
+      <style>{`
         @keyframes fadeIn {
           from { opacity: 0; }
           to { opacity: 1; }
